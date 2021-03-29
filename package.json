@@ -24,5 +24,6 @@
   "dependencies": {
     "angular": "^1.8.0",
     "angular-route": "^1.8.0"
-  }
+  },
+  "build": "rimraf \"dist\" && cd src && cpx \"**/*\" ../dist"
 }
